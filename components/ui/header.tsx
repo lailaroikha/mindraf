@@ -1,10 +1,11 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 
-import Link from 'next/link'
-import Logo from './logo'
-import MobileMenu from './mobile-menu'
+import Link from 'next/link';
+import Logo from './logo';
+import MobileMenu from './mobile-menu';
+import ToggleThemeIcon from '@/components/elements/ThemeToggle';
 
 export default function Header() {
 
@@ -27,13 +28,20 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
 
           {/* Site branding */}
+          
           <div className="shrink-0 mr-4">
             <Logo />
+            {/* <ToggleThemeIcon /> */}
           </div>
+          
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
+            <div className="flex-grow">
+              <ToggleThemeIcon />
+            </div>
             {/* Desktop sign in links */}
+
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link href="/" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Home</Link>

@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import FeaturesBg from '@/public/images/features-bg.png'
-import FeaturesElement from '@/public/images/features-element.png'
+
 
 export default function Features() {
   
@@ -32,7 +32,7 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="font-bold pb-2 text-6xl h2 mb-4">Kha Journey, Digital Learning Platform</h1>
+            <h1 className="font-bold pb-2 text-6xl h2 mb-4"><span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600"> Kha Journey, </span> Digital Learning Platform</h1>
             <p className="text-xl text-gray-600">Leverage the power of Kha Journey, its credibility, and relationship with college students and Gen Zs to engage them through unique student offers and impactful activations that will help them succeed on their educational journey.</p>
           </div>
 
