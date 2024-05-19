@@ -33,7 +33,7 @@ export default function FeaturesBlocks() {
                     </g>
                   </g>
                 </svg>
-                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Expert Q&A</h4>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Expert Q&A</h4>
                 <p className="text-gray-600 text-center">Access millions of expert solutions designed for your best study sessions. Learn by seeing each clear & concise step.</p>
               </div>
   
@@ -49,8 +49,8 @@ export default function FeaturesBlocks() {
                     </g>
                   </g>
                 </svg>
-                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Textbook explanations</h4>
-                <p className="text-gray-600 text-center">Read the book & still confused? Get detailed breakdowns of complicated textbook problems.</p>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Textbook explanations</h4>
+                <p className="text-gray-600 text-center">Read the book & still confused? Get detailed, step-by-step breakdowns of complicated textbook problems instantly online.</p>
               </div>
   
               {/* 3rd item */}
@@ -66,7 +66,7 @@ export default function FeaturesBlocks() {
                     </g>
                   </g>
                 </svg>
-                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Understand a topic</h4>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Understand a topic</h4>
                 <p className="text-gray-600 text-center">Simplify the toughest concepts with digestible topic breakdowns.</p>
               </div>
   
@@ -83,7 +83,7 @@ export default function FeaturesBlocks() {
                     </g>
                   </g>
                 </svg>
-                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Homework</h4>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Homework</h4>
                 <p className="text-gray-600 text-center">84+ million step-by-step explanations, Expert Q&A and math support 24/7.</p>
               </div>
   
@@ -97,7 +97,7 @@ export default function FeaturesBlocks() {
                     </g>
                   </g>
                 </svg>
-                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Writing</h4>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Writing</h4>
                 <p className="text-gray-600 text-center">Get help on your paper from start to finish with our suite of writing tools.</p>
               </div>
   
@@ -112,8 +112,8 @@ export default function FeaturesBlocks() {
                     </g>
                   </g>
                 </svg>
-                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Math Solver</h4>
-                <p className="text-gray-600 text-center">Understand math, one step at a time.</p>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Math Solver</h4>
+                <p className="text-gray-600 text-center">Understand math, one step at a time. Detailed explanation with sub-steps</p>
               </div>
             </div>
           </div>

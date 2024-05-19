@@ -7,6 +7,8 @@
 @import 'additional-styles/toggle-switch.css';
 @import 'additional-styles/theme.css';
 
+@import url('star.css')
+
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {
@@ -28,3 +30,4 @@
 
     
 }
+

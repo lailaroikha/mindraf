@@ -1,5 +1,6 @@
 import VideoThumb from '@/public/images/hero-image.png'
 import ModalVideo from '@/components/modal-video'
+import TypeAnimation from '@/components/elements/TypeAnimation'
 
 export default function Hero() {
   return (
@@ -29,12 +30,17 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> Study Seamlessly with<span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600"> Kha Journey</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> Study Seamlessly with</h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-500"> Kha Journey </span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Solutions backed by verified experts. Specialized tools to help master your courses. Tailored to support the way you learn</p>
+              <p className="text-xl text-gray-600 mb-4" data-aos="zoom-y-out" data-aos-delay="150">Solutions backed by verified experts. Specialized tools to help master your courses. Tailored to support the way you learn</p>
+              <p className="text-center font-sora mb-8 text-1xl font-medium lg:text-3xl">
+                <TypeAnimation sequence={["Hi, Kha Journey:  Empowering Education! ", "Hi, Kha Journey: Your Homework Helper! "]} delay={3000} />
+                </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
+
                 <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start now</a>
+                  <a className="btn text-white bg-blue-700 hover:bg-blue-900 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start now</a>
                 </div>
                 <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>

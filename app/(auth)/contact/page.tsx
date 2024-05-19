@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import FeaturesBg from '@/public/images/features-bg.png'
-import FeaturesElement from '@/public/images/features-element.png'
+
 export default function contact() {
     return (
         <section className="bg-gradient-to-b from-gray-100 to-white">

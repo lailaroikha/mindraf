@@ -22,16 +22,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" >
-      <ThemeProviderContext>
-      <body className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}>
+      
+      <body className={`${inter.variable} font-inter antialiased tracking-tight`}>
+      
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
+        <ThemeProviderContext>
           <Header />
           {children}
           <Banner />
+        </ThemeProviderContext>
         </div>
-        
+       
       </body>
-      </ThemeProviderContext>
+      
     </html>
   )
 }

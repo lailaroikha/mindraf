@@ -8,31 +8,31 @@ export default function product() {
             
             <div className="container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                 <div style={{ width: '45%', margin: '2.5%', border: '0 px', borderRadius: '10px', padding: '10px', display: 'grid', boxShadow: '5px 5px 15px rgba(0, 0, 0, 0.3) '}}>
-                    <img src="/images-product/Learning-Services-Square.jpg" alt="Product 1" style={{ marginRight: '5px' }} />
+                    <img className='rounded-xl' src="/images-product/Learning-Services-Square.jpg" alt="Product 1" style={{ marginRight: '5px' }} />
                     <div>
-                        <h2>EXPERT Q&A</h2>
-                        <p>Understand assignments with expert help. Ask your tough questions to a subject expert. </p>
+                        <h2 className="text-center font-sans font-semibold mt-2 mb-2 ">EXPERT Q&A</h2>
+                        <p className="font-sans text-justify">Understand assignments with expert help. Ask your tough questions to a subject expert. </p>
                     </div>
                 </div>
                 <div style={{ width: '45%', margin: '2.5%', border: '0 px', borderRadius: '10px', padding: '10px', display: 'grid', boxShadow: '5px 5px 15px rgba(0, 0, 0, 0.3)'}}>
-                    <img src="/images-product/textbook.png" alt="Product 2" style={{ marginLeft: '5px' }} />
+                    <img className='rounded-xl' src="/images-product/textbook.png" alt="Product 2" style={{ marginLeft: '5px' }} />
                     <div>
-                        <h2>TEXTBOOK SOLUTIONS</h2>
-                        <p>With Textbook Solutions, you can understand step by step how to solve tough problems.</p>
+                        <h2 className="text-center font-sans font-semibold mt-2 mb-2 ">TEXTBOOK SOLUTIONS</h2>
+                        <p className="font-sans text-justify">With Textbook Solutions, you can understand step by step how to solve tough problems.</p>
                     </div>
                 </div>
                 <div style={{ width: '45%', margin: '2.5%', border: '0 px', borderRadius: '10px', padding: '10px', display: 'grid', boxShadow: '5px 5px 15px rgba(0, 0, 0, 0.3)' }}>
-                    <img src="/images-product/math-solver.png" alt="Product 3" style={{ marginRight: '10px' }} />
+                    <img className='rounded-xl' src="/images-product/math-solver.png" alt="Product 3" style={{ marginRight: '10px' }} />
                     <div>
-                        <h2>MATH SOLVER</h2>
-                        <p>Our solver does what a calculator won’t: breaking down key steps into smaller sub-steps to show you every part of the solution.</p>
+                        <h2 className="text-center font-sans font-semibold mt-2 mb-2 ">MATH SOLVER</h2>
+                        <p className="font-sans text-justify">Our solver does what a calculator won’t: breaking down key steps into smaller sub-steps to show you every part of the solution.</p>
                     </div>
                 </div>
                 <div style={{ width: '45%', margin: '2.5%', border: '0 px', borderRadius: '10px', padding: '10px', display: 'grid', boxShadow: '5px 5px 15px rgba(0, 0, 0, 0.3)' }}>
-                    <img src="/images-product/img-work-cited.png" alt="Product 4" style={{ marginLeft: '10px' }} />
+                    <img className='rounded-xl' src="/images-product/img-work-cited.png" alt="Product 4" style={{ marginLeft: '10px' }} />
                     <div>
-                        <h2>CITATIONS</h2>
-                        <p>Create citations for your assignments from STEM to Art—with thousands of free styles including APA, MLA, Chicago, and Harvard.</p>
+                        <h2 className="text-center font-sans font-semibold mt-2 mb-2 ">CITATIONS</h2>
+                        <p className="font-sans text-justify">Create citations for your assignments from STEM to Art—with thousands of free styles including APA, MLA, Chicago, and Harvard.</p>
                     </div>
                     
                 </div>
