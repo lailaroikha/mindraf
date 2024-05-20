@@ -4,19 +4,6 @@ import FeaturesBg from '@/public/images/features-bg.png'
 
 export default function contact() {
     return (
-    <div className="hero2 clt-banner mh80">
-    <div className="container" style={{ position: "unset" }}>
-        <div className="hero-content hero2-content-left" style={{ position: "absolute", left: "8%" }}>
-            <div className="row">
-                <div className="col-md-12">
-                    <h1 className="hero2-h1 white text-center main-title">Chinese Language <br/>Teaching
-                    </h1>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
         <section className="">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
@@ -39,6 +26,5 @@ export default function contact() {
                 </div>
             </div>
         </section>
-        </div>
     )
 }
