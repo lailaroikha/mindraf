@@ -37,9 +37,7 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
-            <div className="flex-grow">
-              <ToggleThemeIcon />
-            </div>
+
             {/* Desktop sign in links */}
 
             <ul className="flex grow justify-end flex-wrap items-center">
@@ -67,6 +65,9 @@ export default function Header() {
                 </Link>
               </li>
             </ul>
+            {/* <div className=" flex px-4 items-center justify-end ">
+              <ToggleThemeIcon />
+            </div> */}
 
           </nav>
 

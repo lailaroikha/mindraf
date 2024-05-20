@@ -4,6 +4,7 @@ import Header from '@/components/ui/header';
 import Banner from '@/components/banner';
 import ThemeProviderContext  from './stores/theme';
 
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',

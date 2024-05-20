@@ -1,7 +1,35 @@
 import Image from "next/image"
+import ImageBg from '@/public/product/bgproduct.webp'
 
 export default function product() {
     return (
+
+
+        <section className="">
+<div className="max-w-6xl mx-auto px-4 sm:px-6">
+  <div className="pt-32 pb-12 md:pt-40 md:pb-20 relative">
+    <div className="hero" style={{ position: 'relative', width: '100%', height: '100vh' }}>
+      <Image 
+        src={ImageBg} 
+        alt="Hero Image" 
+        style={{ 
+          width: '100%', 
+          height: '100%', 
+          objectFit: 'cover', 
+          objectPosition: 'center', 
+          position: 'absolute', 
+          top: 0, 
+          left: 0, 
+          zIndex: -1 
+        }} 
+      />
+      <div style={{ position: 'absolute', top: '20px', left: '20px', color: 'black', zIndex: 1 }}>
+        blablablabla
+      </div>
+    </div>
+  </div>
+</div>
+
         <div style={{ display: 'grid-item', flexWrap: 'wrap', justifyContent: 'space-around', padding: '80px 0' }}>
             <h1 className="font-bold text-4xl" style={{ width: '100%', textAlign: 'center' }}>Our Products</h1>
             <p style={{ width: '100%', textAlign: 'center' }}>Here are some of our best products</p>
@@ -38,5 +66,7 @@ export default function product() {
                 </div>
             </div>
         </div>
+        </section>
+
     )
 }

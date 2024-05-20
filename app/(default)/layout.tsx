@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '@/components/ui/footer';
+import ShiningStar from '@/components/elements/star';
 
 
 export default function DefaultLayout({
@@ -23,6 +24,7 @@ export default function DefaultLayout({
 
   return (
     <>
+      <ShiningStar />
       <main className="grow">
 
         {children}
@@ -30,6 +32,7 @@ export default function DefaultLayout({
       </main>
 
       <Footer />
+    
     </>
   )
 }
