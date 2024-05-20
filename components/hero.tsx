@@ -1,4 +1,4 @@
-import VideoThumb from '@/public/images/hero-image.png'
+import VideoThumb from '@/public/images/hero-image.webp'
 import ModalVideo from '@/components/modal-video'
 import TypeAnimation from '@/components/elements/TypeAnimation'
 
