@@ -1,4 +1,4 @@
-'use client'
+
 import Image from 'next/image'
 import OurTeam from './components/bg-ourteam'
 import team1 from '@/public/team/team1.png'
