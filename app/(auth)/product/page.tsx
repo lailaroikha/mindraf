@@ -9,7 +9,7 @@ export default function product() {
         <section className="">
             <Background />
             
-        <div style={{ display: 'grid-item', flexWrap: 'wrap', justifyContent: 'space-around', padding: '80px 0' }}>
+        <div className="items-center" style={{ display: 'grid-item', flexWrap: 'wrap', justifyContent: 'space-around', padding: '80px 0' }}>
             <h1 className="font-bold text-4xl" style={{ width: '100%', textAlign: 'center' }}>Our Products</h1>
             <p style={{ width: '100%', textAlign: 'center' }}>Here are some of our best products</p>
             

@@ -51,7 +51,7 @@ export default function Header() {
                 <Link href="/about" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About Us</Link>
               </li>
               <li>
-                <Link href="/contact" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</Link>
+                <Link href="/contact" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Our Team</Link>
               </li>
               <li>
                 <Link href="/signin" className="btn-sm text-gray-200 bg-blue-900 hover:bg-blue-800 flex items-center transition duration-150 ease-in-out">Sign in</Link>

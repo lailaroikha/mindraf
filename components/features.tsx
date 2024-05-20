@@ -115,7 +115,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={Features1} width={500}  alt="Features1" />
+                      <Image className="w-50" src={Features1}   alt="Features1" />
                       {/* <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </Transition>
@@ -134,7 +134,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={Features2} width={500}  alt="Features2" />
+                      <Image className="w-50" src={Features2}   alt="Features2" />
                     </div>
                   </Transition>
                   {/* Item 3 */}
@@ -152,7 +152,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={Features3} width={500}  alt="Features3" />
+                      <Image className="w-50" src={Features3}   alt="Features3" />
                       {/* <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </Transition>
