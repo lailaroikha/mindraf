@@ -1,12 +1,10 @@
-'use client'
+import React, { useState, useRef, useEffect } from 'react';
 
-import { useState, useRef, useEffect } from 'react'
-
-type AccordionpProps = {
-  children: React.ReactNode
-  tag?: string
-  title: string
-  active?: boolean
+type AccordionProps = {
+  children: React.ReactNode | string;
+  tag?: keyof JSX.IntrinsicElements | string;
+  title: string;
+  active?: boolean;
 }
 
 export default function Accordion({
@@ -14,15 +12,15 @@ export default function Accordion({
   tag = 'li',
   title,
   active = false
-}: AccordionpProps) {
+}: AccordionProps) {
 
-  const [accordionOpen, setAccordionOpen] = useState<boolean>(false)
-  const accordion = useRef<HTMLDivElement>(null)
-  const Component = tag as keyof JSX.IntrinsicElements
+  const [accordionOpen, setAccordionOpen] = useState<boolean>(false);
+  const accordion = useRef<HTMLDivElement>(null);
+  const Component = tag as keyof JSX.IntrinsicElements;
 
   useEffect(() => {
-    setAccordionOpen(active)
-  }, [accordion])
+    setAccordionOpen(active);
+  }, [active]);
 
   return (
     <Component>
@@ -40,7 +38,7 @@ export default function Accordion({
       <div
         ref={accordion}
         className="text-gray-600 overflow-hidden transition-all duration-300 ease-in-out"
-        style={accordionOpen ? { maxHeight: accordion.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0 }}
+        style={{ maxHeight: accordionOpen ? accordion.current?.scrollHeight : 'none', opacity: accordionOpen ? 1 : 0 }}
       >
         <p className="pb-5">{children}</p>
       </div>
