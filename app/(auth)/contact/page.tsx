@@ -1,28 +1,14 @@
 'use client'
 import Image from 'next/image'
-import FeaturesBg from '@/public/images/features-bg.png'
 import OurTeam from './components/bg-ourteam'
-import { Transition } from '@headlessui/react'
-import { useState, useRef, useEffect } from 'react'
 import team1 from '@/public/team/team1.png'
 import team2 from '@/public/team/team2.png'
 import team3 from '@/public/team/team3.png'
 
 export default function contact() {
-    const [tab, setTab] = useState<number>(1)
-
-    const tabs = useRef<HTMLDivElement>(null)
-  
-    const heightFix = () => {
-      if (tabs.current && tabs.current.parentElement) tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`
-    }
-  
-    useEffect(() => {
-      heightFix()
-    }, []) 
-  
+ 
     return (
-        <section className="">
+        <section>
             <OurTeam />
             <div className="-mt-10 max-w-4xl mx-auto sm:px-6 bg-white py-10 px-8 md:py-16 md:px-12  overflow-hidden" >
                 <div className="flex flex-col  items-center">
@@ -62,7 +48,7 @@ export default function contact() {
             <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   
-                  <Image className="relative rounded-full w-150 h-150" src={team1}  alt="Testimonial 01" />
+                  <Image className="relative rounded-full w-150 h-150" src={team2}  alt="Testimonial 01" />
                 </div>
                 <h1 className="text-gray-950 block font-bold text-lg not-italic mt-10 mb-1">Omar Abbosh</h1>
                 <span>CHIEF EXECUTIVE</span> 
@@ -84,7 +70,7 @@ export default function contact() {
             <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   
-                  <Image className="relative rounded-full w-150 h-150 " src={team1}  alt="Testimonial 01" />
+                  <Image className="relative rounded-full w-150 h-150 " src={team3}  alt="Testimonial 01" />
                 </div>
                 <h1 className="text-gray-950 block font-bold text-lg not-italic mt-10 mb-1">Omar Abbosh</h1>
                 <span>CHIEF EXECUTIVE</span> 
@@ -104,7 +90,7 @@ export default function contact() {
                 {/* Section header */}
             <div className="max-w-3xl mx-auto text-left pb-12 md:pb-16">
             <h1 className="h2 mb-4">Contact Us</h1>
-            <p className="text-xl pb-2 text-gray-600">Reach us on any social here, We're glad to help</p>
+            <p className='text-xl pb-2 text-gray-600'>Reach us on any social here, We are glad to help</p>
             <h2>Email: khajourney@example.com</h2>
             <h2>Phone: +62 85 1234 5678</h2>
             <h2>Telegram: @khajourney</h2>

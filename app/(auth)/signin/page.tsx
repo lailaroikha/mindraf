@@ -70,7 +70,7 @@ export const metadata = {
                 </div>
               </form>
               <div className="text-gray-600 text-center mt-6">
-                Don't you have an account? <Link href="/signup" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign up</Link>
+                Don't you have an account? <p className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign up</p>
               </div>
             </div>
   

@@ -1,25 +1,12 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { Transition } from '@headlessui/react'
-import Image from 'next/image'
-import FeaturesBg from '@/public/images/features-bg.png'
-import Link from 'next/link'   
+ 
 
   export default function about() {
-    const [tab, setTab] = useState<number>(1)
 
-    const tabs = useRef<HTMLDivElement>(null)
-  
-    const heightFix = () => {
-      if (tabs.current && tabs.current.parentElement) tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`
-    }
-  
-    useEffect(() => {
-      heightFix()
-    }, []) 
     return (
-      <section className="">
+      <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="pt-32 pb-10 md:pt-40 md:pb-20">
 
@@ -51,20 +38,16 @@ import Link from 'next/link'
           {/* Tabs buttons */}
           <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(1); }}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3  'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Own the study hour</div>
-                    <div className="text-justify text-gray-600">Kha Journey is an online learning platform for course-specific study resources. Founded by college student Andrew Grauer in 2006, Kha Journey is on a mission to help students graduate confident and prepared.</div>
+                    <div className="text-justify text-gray-600">Kha Journey is an online learning platform for course specific study resources. Founded by college student Andrew Grauer in 2006, Kha Journey is on a mission to help students graduate confident and prepared.</div>
                     <div className="text-justify text-gray-600 pb-2">Kha Journey is a platform dedicated to empowering individuals on their unique paths to personal and professional growth. Whether you're a student, a professional, or someone seeking to enhance your skills, Kha Journey offers a wide range of resources tailored to support your goals. With an extensive library of educational materials, expert guidance, and a community of like-minded learners, Kha Journey helps you navigate the challenges and opportunities on your path to success. Join us at Kha Journey and start your transformative learning experience today.</div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(2); }}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3  'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Educators</div>
@@ -72,9 +55,7 @@ import Link from 'next/link'
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(3); }}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3  'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-4 text-pink-950">GIVING BACK</div>
