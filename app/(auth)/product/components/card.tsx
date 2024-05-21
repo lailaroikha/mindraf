@@ -19,7 +19,7 @@ const Card: React.FC = () => {
                   <form className="w-full lg:w-auto">
                   
                     <div >
-                      <a className="item-center btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Subscribe</a>
+                      <a className="item-center btn text-white bg-blue-500 hover:bg-blue-800 shadow rounded-full" href="#0">Start a free trial</a>
                     </div>
                     {/* Success message */}
                     {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}

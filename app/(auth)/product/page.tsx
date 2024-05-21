@@ -3,6 +3,7 @@ import ImageBg from '@/public/product/bgproduct.webp'
 import Background from "./components/background"
 import Card from "./components/card"
 
+
 export default function product() {
     return (
         
@@ -11,9 +12,9 @@ export default function product() {
             
         <div className="items-center" style={{ display: 'grid-item', flexWrap: 'wrap', justifyContent: 'space-around', padding: '80px 0' }}>
             <h1 className="font-bold text-4xl" style={{ width: '100%', textAlign: 'center' }}>Our Products</h1>
-            <p style={{ width: '100%', textAlign: 'center' }}>Here are some of our best products</p>
+            <p className="ml-20 mr-20 py-8 text-center" >Here are some of our best products, specifically curated to aid in education and homework. Our range encompasses various resources designed to facilitate learning across different subjects and levels. From interactive textbooks to comprehensive study guides, we strive to provide students with the tools they need to succeed academically. Explore our collection to discover how our products can enhance your educational journey and streamline your homework process.</p>
             
-            <div className="container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+            <div className=" container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                 <div style={{ width: '45%', margin: '2.5%', border: '0 px', borderRadius: '10px', padding: '10px', display: 'grid', boxShadow: '5px 5px 15px rgba(0, 0, 0, 0.3) '}}>
                     <img className='rounded-xl' src="/images-product/Learning-Services-Square.jpg" alt="Product 1" style={{ marginRight: '5px' }} />
                     <div>
@@ -45,7 +46,15 @@ export default function product() {
                 </div>
             </div>
         </div>
+        <div>
+            <div >
+                <h1 className='font-bold font-sans text-4xl content-wrap text-center'>Unlock more help for your courses</h1>
+                <h3 className='ml-20 mr-20 content-wrap text-center py-14'>Our transformative learning program is designed to make a profound impact on every learner. By inspiring, motivating, and equipping you with essential skills, our courses empower you to achieve your dreams. Whether you aim for academic excellence, career advancement, or personal growth, our innovative approach ensures your journey is fully supported. Join us today and take the first step towards a brighter, more fulfilling future.</h3>
+            </div>
+        </div>
+              
             <Card />
+
         </section>
 
     )
