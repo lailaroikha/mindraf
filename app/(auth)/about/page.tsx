@@ -1,32 +1,14 @@
-'use client'
-
-import { useState, useRef, useEffect } from 'react'
-import { Transition } from '@headlessui/react'
-import Image from 'next/image'
 
 export default function About() {
-  const [tab, setTab] = useState<number>(1)
-
-  const tabs = useRef<HTMLDivElement | null>(null) // corrected use of generic type for ref
-  
-  const heightFix = () => {
-    if (tabs.current && tabs.current.parentElement)
-      tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`;
-  }
-  
-  useEffect(() => {
-    heightFix();
-  }, []) 
 
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-32 pb-10 md:pt-40 md:pb-20">
-          </div>
-
+        <div className="pt-16 pb-10 md:pt-30 md:pb-20">
+        </div>
         {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-10 md:pb-14">
-            <h1 className="text-5xl font-bold h2 mb-2">Our Vision</h1>
+          <div className="max-w-3xl mx-auto text-center pb-10 ">
+            <h1 className="text-5xl font-bold h2 mb-4">Our Vision</h1>
             <p className="text-xl text-gray-600">We strive to improve the overall return on investment in education by helping students learn more in less time and at a lower cost.</p>
           </div>
           
@@ -34,34 +16,32 @@ export default function About() {
             <h1 className="text-5xl font-bold h2 mb-4">A Smarter Way to Student</h1>
             <p className="text-xl text-gray-600">As the leading student-first connected learning platform, our mission is to help every student achieve their best, in school and beyond.</p>
           </div>
-        
-        {/* Section content */}
-        <div className="md:grid md:grid-cols-12 md:gap-6">
-          {/* Content */}
-          <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
-            {/* Our Teams */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
-              <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-4">
-                <h3 className="text-4xl font-bold h3 mb-3"> ABOUT US </h3>
-              </div>
-              {/* Tabs buttons */}
-              <div className="mb-8 md:mb-0" ref={tabs}>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(1); }}>
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Own the study hour</div>
-                    <div className="text-justify text-gray-600">Kha Journey is an online learning platform for course specific study resources. Founded by college student Andrew Grauer in 2006, Kha Journey is on a mission to help students graduate confident and prepared.</div>
-                    <div className="text-justify text-gray-600 pb-2">Kha Journey is a platform dedicated to empowering individuals on their unique paths to personal and professional growth. Whether youre a student, a professional, or someone seeking to enhance your skills, Kha Journey offers a wide range of resources tailored to support your goals. With an extensive library of educational materials, expert guidance, and a community of like-minded learners, Kha Journey helps you navigate the challenges and opportunities on your path to success. Join us at Kha Journey and start your transformative learning experience today</div>
-                  </div>
-                </a>
-                {/* Rest of the code... */}
-              </div>
-            </div>
+
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <h1 className="text-5xl font-bold h2 mb-4">ABOUT US</h1>
           </div>
-        </div>
-      </div>
-    </section>
+          <div className="  max-w-3xl mx-auto space-y-8">
+          <div className="items-center bg-gray-900 text-white p-6 rounded-lg shadow-md">
+            <h2 className="text-xl font-bold mb-2">Cengage Learning</h2>
+            <p>
+              Cengage is the education and technology company built for learners. The company serves the higher education, K-12, professional, library and workforce training markets worldwide. Cengage creates learning experiences that build confidence and momentum toward the future students want. The company is headquartered in Boston, MA with an office hub in San Francisco. Employees reside in nearly 40 countries with sales in more than 125 countries around the world.
+            </p>
+          </div>
+          <div className="bg-gray-900 text-white p-6 rounded-lg shadow-md text-center">
+            <h2 className="text-xl font-bold mb-2">Center of Engagement</h2>
+            <p>
+              Cengage Learning believes that engagement is the foundation of learning and that an engaged learner is a successful one – this is at our core and what we focus on. We work closely with students and teachers both in the classroom and beyond to ensure that we provide the most effective product design, learning solutions and customized services to help people succeed. Our unique student-and-faculty perspective is helping us lead the transition to digital and transform learning in the twenty-first century. Our name itself reflects this core commitment: “engage” is at the “center” of all we do.
+            </p>
+          </div>
+          <div className="bg-gray-900 text-white p-6 rounded-lg shadow-md">
+            <h2 className="text-xl font-bold mb-2">Learning Asia</h2>
+            <p>
+              Cengage Learning Asia with its regional headquarters in Singapore, comprises 11 territories and offices which include China, Hong Kong, Indonesia, Japan, Korea, Malaysia, Philippines, Taiwan, Thailand, and Vietnam.
+            </p>
+          </div>
+        </div>       
+            </div>
+      </section>
+
   )
 }
