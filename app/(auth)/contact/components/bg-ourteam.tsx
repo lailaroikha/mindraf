@@ -7,7 +7,7 @@ const OurTeam: React.FC = () => {
     <div className="mt-20 mx-auto h-screen w-full ">
       <div className=" relative">
         <div className="hero" style={{ position: 'relative', width: '100%', height: '100vh' }}>
-          <Image className='opacity-90'
+          <Image 
             src={OurCompany} 
             alt="Hero Image" 
             layout="fill"
