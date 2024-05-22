@@ -9,7 +9,7 @@ export default function Newsletter() {
 
                 <div className="text-center lg:text-left lg:max-w-xl">
                   <h3 className="h3 text-white mb-2">Stay Updated with Kha Journey!</h3>
-                  <p className="text-gray-300 text-lg mb-6">Be the first to know about our latest adventures, exclusive content, and special offers. Subscribe now to stay connected!</p>
+                  <p className="text-gray-300 text-lg mb-6">Be the first to know about our latest adventures, exclusive content, and special offers.</p>
                 </div>
   
               </div>
