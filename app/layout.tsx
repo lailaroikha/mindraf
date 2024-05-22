@@ -1,7 +1,6 @@
 import './css/style.css';
 import { Inter } from 'next/font/google';
 import Header from '@/components/ui/header';
-import Banner from '@/components/banner';
 import ThemeProviderContext  from './stores/theme';
 
 
