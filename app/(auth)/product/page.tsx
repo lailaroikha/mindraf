@@ -1,5 +1,3 @@
-import Image from "next/image"
-import ImageBg from '@/public/product/bgproduct.webp'
 import Background from "./components/background"
 import Card from "./components/card"
 

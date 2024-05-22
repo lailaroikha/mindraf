@@ -31,7 +31,6 @@ export default function RootLayout({
         <ThemeProviderContext>
           <Header />
           {children}
-          <Banner />
         </ThemeProviderContext>
         </div>
        
