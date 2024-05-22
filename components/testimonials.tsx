@@ -49,9 +49,6 @@ export default function Testimonials() {
                   “ I love this product and would recommend it to anyone. I get better grades when they use Kha Journey to understand my homework “
                 </blockquote>
                 <cite className="text-gray-950 block font-bold text-lg not-italic mb-1">Darya Finger</cite>
-                <div className="text-gray-600">
-                  <span>Students</span> <a className="text-blue-800 hover:underline" href="#0">@Darya</a>
-                </div>
               </div>
 
             </div>
