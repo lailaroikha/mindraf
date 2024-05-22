@@ -25,14 +25,6 @@ export default function FeaturesBlocks() {
   
               {/* 1st item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                  <g fill="none" fillRule="evenodd">
-                    <rect className="fill-current  text-blue-950" width="64" height="64" rx="32" />
-                    <g strokeWidth="2">
-                      <text x="50%" y="60%" textAnchor="middle" fill="white" fontSize="20" fontFamily="arial, sans-serif"  >QnA</text>
-                    </g>
-                  </g>
-                </svg>
                 <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Expert Q&A</h4>
                 <p className="text-gray-600 text-center">Access millions of expert solutions designed for your best study sessions. Learn by seeing each clear & concise step.</p>
               </div>
