@@ -43,7 +43,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full w-20 h-20" src={TestimonialImage} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-gray-800 text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. I get better grades when they use Kha Journey to understand my homework “
+                  “ I could not imagine life as a student without Chegg. “
                 </blockquote>
                 <cite className="text-gray-950 block font-bold text-lg not-italic mb-1">Gayatri</cite>
               </div>
