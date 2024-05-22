@@ -43,7 +43,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full w-20 h-20" src={TestimonialImage} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-gray-800 text-xl font-medium mb-4">
-                  “ I could not imagine life as a student without Chegg. “
+                  “ I could not imagine life as a student without Khe journey. Its engaging lessons and interactive activities have made learning not only easier but also enjoyable. The sense of community and support from both the platform and fellow students has been invaluable in navigating my academic challenges. “
                 </blockquote>
                 <cite className="text-gray-950 block font-bold text-lg not-italic mb-1">Gayatri</cite>
               </div>
