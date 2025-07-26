@@ -45,13 +45,7 @@ export default function Header() {
                 <Link href="/" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Home</Link>
               </li>
               <li>
-                <Link href="/product" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Product</Link>
-              </li>
-              <li>
-                <Link href="/about" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About Us</Link>
-              </li>
-              <li>
-                <Link href="/contact" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Our Team</Link>
+                <Link href="/product" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"> | Fitur - Coming Soon  </Link>
               </li>
             </ul>
             {/* <div className=" flex px-4 items-center justify-end ">
