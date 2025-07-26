@@ -27,8 +27,10 @@ export default function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Trusted by various students around the world</h2>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out"> Kha Journey is the impact, advocacy, and research arm of Kha Journey addressing the issues facing the modern student. </p>
+            <h2 className="h2 mb-4">Mindraft</h2>
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out"> Terus belajar, terus menulis, dan terus tumbuh. Mindraft percaya bahwa satu langkah kecil hari ini jauh lebih berharga daripada menunggu segalanya sempurna. Setiap proses memiliki maknanya sendiri, dan perjalananmu layak untuk dihargai. Kamu tidak sendiri. Kami pun pernah berada di titik yang sama, merasa bingung, lelah, bahkan ingin berhenti. Dari situlah kita belajar bahwa tidak apa-apa berjalan pelan asalkan tetap konsisten. Dan yang paling penting, jangan lupa untuk menikmati prosesnya.
+
+ </p>
           </div>
 
 
@@ -39,13 +41,11 @@ export default function Testimonials() {
 
               {/* Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
-                <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                  <Image className="relative rounded-full w-20 h-20" src={TestimonialImage} alt="Testimonial 01" />
-                </div>
                 <blockquote className="text-gray-800 text-xl font-medium mb-4">
-                  “ I could not imagine life as a student without Khe journey. Its engaging lessons and interactive activities have made learning not only easier but also enjoyable. The sense of community and support from both the platform and fellow students has been invaluable in navigating my academic challenges. “
+                  “ Kamu yang harus berusaha sendiri. Kamu yang harus bangkit, tumbuhkan semangat dari dalam dirimu.
+Dan saat kamu merasa lelah atau kehilangan arah, Mindraft siap menemanimu mencari kembali motivasi itu. Karena semangat yang tumbuh dari dalam, akan jauh lebih kuat ketika kamu tahu ke mana harus melangkah. “
                 </blockquote>
-                <cite className="text-gray-950 block font-bold text-lg not-italic mb-1">Gayatri</cite>
+                <cite className="text-gray-950 block font-bold text-lg not-italic mb-1"> With Mindraft </cite>
               </div>
 
             </div>

@@ -12,8 +12,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="font-bold pb-2 text-6xl h2 mb-4"><span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600"> Kha Journey, </span> Digital Learning Platform</h1>
-            <p className="text-xl text-gray-600">Leverage the power of Kha Journey, its credibility, and relationship with college students and Gen Z to engage them through unique student offers and impactful activations that will help them succeed on their educational journey.</p>
+            <h1 className="font-bold pb-2 text-6xl h2 mb-4"><span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">Mindraft, </span> untuk kamu yang sedang belajar, menulis, dan bertumbuh </h1>
+            <p className="text-xl text-gray-600">Di Mindraft, kamu bisa menemukan berbagai tips dan trik akademik yang membantu proses menulis terasa lebih ringan dan menyenangkan. Tak hanya itu, tersedia juga motivasi dari pengalaman nyata mahasiswa dan peneliti muda yang pernah berada di posisi yang sama, penuh tantangan namun tetap berjuang. Mindraft juga menyediakan ruang diskusi yang suportif dan saling mendukung, tempatmu berbagi cerita, bertanya, atau sekadar menguatkan diri bersama komunitas yang memahami.</p>
           </div>
         </div>
       </div>
