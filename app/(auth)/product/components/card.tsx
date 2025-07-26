@@ -12,11 +12,12 @@ const Card: React.FC = () => {
   
                 {/* CTA content */}
                 <div className="text-center ">
-                  <h3 className="h3 text-center text-white mb-4">Wait, what is Kha Journey!</h3>
-                  <p className="text-gray-300 text-center text-lg mb-6">Kha Journey is the go-to, online homework help service for students everywhere. We pride ourselves in supporting students through their academic journeys and offer resources for every type of learner. We aim to help students finish homework fast so they can spend more time doing what makes them happy 😊.</p>
+                  <h3 className="h3 text-center text-white mb-4">Lagi disiapin buat kamu! Fitur baru sebentar lagi hadir dengan tampilan dan pengalaman yang lebih seru.</h3>
+                  <p className="text-gray-300 text-center text-lg mb-6">Sabar ya, fitur ini masih kami poles biar makin maksimal dan bermanfaat untuk perjalanan akademikmu.
+Fitur ini memang belum aktif sekarang, tapi tenang—sebentar lagi kamu bisa langsung eksplorasi dan manfaatin semua isinya😊.</p>
   
                   {/* CTA form */}
-                  <form className="w-full lg:w-auto">
+                  {/* <form className="w-full lg:w-auto">
                   
                     <div >
                       <a className="item-center btn text-white bg-blue-500 hover:bg-blue-800 shadow rounded-full" href="#0">Start a free trial</a>
@@ -24,7 +25,7 @@ const Card: React.FC = () => {
                     {/* Success message */}
                     {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
                     
-                  </form>
+                  {/* </form> */} 
                 </div>
   
               </div>

@@ -16,7 +16,7 @@ export default function Hero() {
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-4" data-aos="zoom-y-out" data-aos-delay="150"> Mindraft menghadirkan semangat, motivasi, dan ruang diskusi yang mendorong pertumbuhan dan pencapaian akademik </p>
               <p className="text-center font-sora mb-8 text-1xl font-medium lg:text-3xl">
-                <TypeAnimation sequence={["Hi, Kha Journey:  Empowering Education! ", "Mindraft! Naikin Semangat, Buka Peluang! "]} delay={3000} />
+                <TypeAnimation sequence={["Mindraft! Naikin Semangat, Buka Peluang! "]} delay={3000} />
                 </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
               </div>
