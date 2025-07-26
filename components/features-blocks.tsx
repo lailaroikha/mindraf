@@ -11,12 +11,12 @@ export default function FeaturesBlocks() {
   
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-              <h2 className="h2 text-3xl font-bold mb-4">Powered by 100+ million expert solutions</h2>
-              <p className="text-xl text-gray-600">Tackle tough assignments with confidence. Our library of study support tools has you covered with millions of solutions designed to get you unstuck and on the right track.</p>
+              <h2 className="h2 text-3xl font-bold mb-4">Bukan solusi instan, tapi teman yang menguatkan prosesmu</h2>
+              <p className="text-xl text-gray-600">Mindraft hadir bukan untuk membuatmu langsung bisa. Tapi untuk menemanimu berpikir, menulis, dan tumbuh — satu langkah kecil yang berarti.</p>
             </div>
 
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-              <h2 className="h2 text-3xl font-bold mb-4">Built to support your learning goals</h2>
+              <h2 className="h2 text-3xl font-bold mb-4">Dirancang untuk Menemani Proses Belajarmu</h2>
               
             </div>
   
@@ -25,38 +25,38 @@ export default function FeaturesBlocks() {
   
               {/* 1st item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Expert Q&A</h4>
-                <p className="text-gray-600 text-center">Access millions of expert solutions designed for your best study sessions. Learn by seeing each clear & concise step.</p>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">📝 Tips & Trik Menulis</h4>
+                <p className="text-gray-600 text-center">Kumpulan panduan menulis karya tulis, dari ide hingga revisi. Bikin proses menulis terasa lebih ringan dan terarah.</p>
               </div>
   
               {/* 2nd item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Textbook explanations</h4>
-                <p className="text-gray-600 text-center">Read the book & still confused? Get detailed, step-by-step breakdowns of complicated textbook problems instantly online.</p>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">🌟 Motivasi Harian</h4>
+                <p className="text-gray-600 text-center">Kata-kata penguat dari pengalaman nyata. Baca saat kamu lelah, buntu, atau butuh semangat baru.</p>
               </div>
   
               {/* 3rd item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Understand a topic</h4>
-                <p className="text-gray-600 text-center">Simplify the toughest concepts with digestible topic breakdowns.</p>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">📚 Cerita Kita</h4>
+                <p className="text-gray-600 text-center">Berisi kisah inspiratif dari mahasiswa dan peneliti muda. Bukti bahwa kamu tidak sendiri dalam proses ini.</p>
               </div>
   
               {/* 4th item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Homework</h4>
-                <p className="text-gray-600 text-center">84+ million step-by-step explanations, Expert Q&A and math support 24/7.</p>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">🎓 Tugas Akhir Asyik</h4>
+                <p className="text-gray-600 text-center">Temukan cara asyik dan bermakna dalam menyelesaikan tugas akhir. Bangkitkan kembali semangat menulis.</p>
               </div>
   
               {/* 5th item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Writing</h4>
-                <p className="text-gray-600 text-center">Get help on your paper from start to finish with our suite of writing tools.</p>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">🤝 Kolaborasi Proyek</h4>
+                <p className="text-gray-600 text-center">Wadah untuk menjalin kolaborasi: cari rekan riset, projek menulis bareng, atau sekadar saling dukung.</p>
               </div>
   
               {/* 6th item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">Math Solver</h4>
-                <p className="text-gray-600 text-center">Understand math, one step at a time. Detailed explanation with sub-steps</p>
+                <h4 className="text-gray-800 text-xl font-bold leading-snug tracking-tight mb-1">💬 Pertemuan Diskusi Kita</h4>
+                <p className="text-gray-600 text-center">Jadwal dan link Zoom untuk sesi diskusi terbuka, nugas bareng, atau ruang tanya-jawab penuh semangat.</p>
               </div>
             </div>
           </div>
