@@ -4,7 +4,7 @@ import Hero from '@/components/hero'
 import Testimonials from '@/components/testimonials'
 
 export const metadata = {
-    title: 'Home - Kha Journey',
+    title: 'Mindraft',
     description: 'Sebuah landing page',
   }
   
